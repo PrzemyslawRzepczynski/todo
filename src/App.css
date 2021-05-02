@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+
+  background: #209cee;
+
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.app {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: fit-content;
+  min-width: 300px;
+  max-height: fit-content;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+  justify-items: flex-start;
+  min-width: 300px;
+  max-width: fit-content;
+}
+
+.button-complete {
+  align-items: flex-end;
+  color: black;
+}
+.button-delete {
+  color: black;
+  justify-content: center;
+}
